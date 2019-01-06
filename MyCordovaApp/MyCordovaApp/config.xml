@@ -73,14 +73,14 @@
     <icon src="res/icons/windows/Wide310x150Logo.scale-240.png" width="744" height="360" />
   </platform>
   <platform name="android">
-    <splash src="res/screens/android/screen-hdpi-landscape.png" density="land-hdpi" />
-    <splash src="res/screens/android/screen-ldpi-landscape.png" density="land-ldpi" />
-    <splash src="res/screens/android/screen-mdpi-landscape.png" density="land-mdpi" />
-    <splash src="res/screens/android/screen-xhdpi-landscape.png" density="land-xhdpi" />
-    <splash src="res/screens/android/screen-hdpi-portrait.png" density="port-hdpi" />
-    <splash src="res/screens/android/screen-ldpi-portrait.png" density="port-ldpi" />
-    <splash src="res/screens/android/screen-mdpi-portrait.png" density="port-mdpi" />
-    <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi" />
+    <splash src="res/screens/android/splash/splash-land-hdpi-640x480.png" density="land-hdpi" />
+    <splash src="res/screens/android/splash/splash-land-ldpi-426x320.png" density="land-ldpi" />
+    <splash src="res/screens/android/splash/splash-land-mdpi-470x320.png" density="land-mdpi" />
+    <splash src="res/screens/android/splash/splash-land-xhdpi-960x720.png" density="land-xhdpi" />
+    <splash src="res/screens/android/splash/splash-port-hdpi-480x640.png" density="port-hdpi" />
+    <splash src="res/screens/android/splash/splash-port-ldpi-320x426.png" density="port-ldpi" />
+    <splash src="res/screens/android/splash/splash-port-mdpi-320x470.png" density="port-mdpi" />
+    <splash src="res/screens/android/splash/splash-port-xhdpi-720x960.png" density="port-xhdpi" />
   </platform>
   <platform name="ios">
     <splash src="res/screens/ios/screen-iphone-portrait.png" width="320" height="480" />
@@ -109,4 +109,6 @@
   <vs:platformSpecificValues>
     <vs:platformSpecificWidget platformName="windows" id="com.aloz.nbuexrate" version="1.0.0.0" />
   </vs:platformSpecificValues>
+  <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+  <preference name="ShowSplashScreenSpinner" value="false"/>
 </widget>
