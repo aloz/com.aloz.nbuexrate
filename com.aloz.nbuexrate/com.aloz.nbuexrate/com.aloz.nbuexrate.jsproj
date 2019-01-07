@@ -82,7 +82,7 @@
     <ExcludedItems>bin;bld;platforms;node_modules;simulation;plugins</ExcludedItems>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="**\**" Exclude="**\platforms\**;**\bin\**;**\bld\**;**\node_modules\**;**\simulation\**;**\plugins\**;.gitignore;MyCordovaApp.*" />
+    <Content Include="**\**" Exclude="**\platforms\**;**\bin\**;**\bld\**;**\node_modules\**;**\simulation\**;**\plugins\**;.gitignore;com.aloz.nbuexrate.*" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="config.xml">

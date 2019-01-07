@@ -110,5 +110,5 @@
     <vs:platformSpecificWidget platformName="windows" id="com.aloz.nbuexrate" version="1.0.0.0" />
   </vs:platformSpecificValues>
   <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
-  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <preference name="ShowSplashScreenSpinner" value="false" />
 </widget>
