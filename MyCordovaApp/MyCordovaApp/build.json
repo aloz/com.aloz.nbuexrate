@@ -1,10 +1,10 @@
 {
      "android": {
          "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
+             "keystore": "C:\\Users\\Anton\\Documents\\com.aloz.nbuexrate.google-play.keystore",
+             "storePassword": "123456",
+             "alias": "key",
+             "password" : "123456",
              "keystoreType": ""
          }
      }
